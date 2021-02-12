@@ -22,7 +22,8 @@ var last_position_of_x, last_position_of_y;
 
     }
 
-    canvas.addEventListener("touchdown", my_touchdown);
+    canvas.addEventListener("touchstart
+                            ", my_touchstart);
     
     function my_touchdown(e)
     {
